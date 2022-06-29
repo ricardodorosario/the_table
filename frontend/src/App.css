@@ -1,21 +1,9 @@
 .App {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
+.header {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: 10vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -23,16 +11,53 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.content {
+  background-color: #dadde4;
+  min-height: 80vh;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+.footer {
+  background-color: #282c34;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+.table {
+  width: 90%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+table, .tss-1cdcmys-MUIDataTable-responsiveBase {
+  min-width: 700px;
+  height: 80vh !important;
+}
+tableCell {
+  font-size: ".6rem"
+}
+
+.chip {
+  margin-left: 10px;
+  height: 20px !important;
+}
+
+.group-modal .css-1t1j96h-MuiPaper-root-MuiDialog-paper {
+  max-width: 100% !important;
+  max-height: 100vh !important;
+  width: 100% !important;
+  margin: 0px !important;
+}
+.panel{
+  width: 95%;
+  height: 65vh;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  color: black;
 }
